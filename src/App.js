@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <ShopContextProvider>
-        <Router basename="/ecomerce">  // Add the basename prop here
+        <Router basename="/ecomerce">
           <Navbar />
           <Routes>
             <Route path="/" element={<Shop />} />
